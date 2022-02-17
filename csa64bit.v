@@ -2,7 +2,7 @@
 
 `include "mux2to1.v"
 `include "CLA_4bit_block.v"
-module CSA_64bit(
+module csa64bit(
 	input[63:0] A, B, // Adding these bits
 	input Cin, //Carry-in into the block
 	output Cout, // Final Carry
